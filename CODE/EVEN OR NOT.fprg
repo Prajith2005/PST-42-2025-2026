@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVEN OR NOT"/>
+        <attribute name="authors" value="prajith"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:40:08 AM"/>
+        <attribute name="created" value="cHJhaml0aDtQUkFKSVRIOzIwMjYtMDEtMDY7MTA6MzA6NDggQU07MjU0Ng=="/>
+        <attribute name="edited" value="cHJhaml0aDtQUkFKSVRIOzIwMjYtMDEtMDY7MTA6NDA6MDggQU07MTsyNjUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <if expression="A%2==0">
+                <then>
+                    <output expression="&quot;IT EVEN&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ODD&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

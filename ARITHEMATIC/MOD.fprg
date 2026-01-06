@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="MOD"/>
+        <attribute name="authors" value="prajith"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:05:18 AM"/>
+        <attribute name="created" value="cHJhaml0aDtQUkFKSVRIOzIwMjYtMDEtMDY7MTA6MDQ6NDYgQU07MjU0NQ=="/>
+        <attribute name="edited" value="cHJhaml0aDtQUkFKSVRIOzIwMjYtMDEtMDY7MTA6MDQ6NDkgQU07MTtwcmFqaXRoO1BSQUpJVEg7MjAyNi0wMS0wNjsxMDowMTo0NiBBTTtESVZJU0lPTi5mcHJnOzY0MDY="/>
+        <attribute name="edited" value="cHJhaml0aDtQUkFKSVRIOzIwMjYtMDEtMDY7MTA6MDU6MTggQU07MTsyNjUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="7"/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <assign variable="B" expression="2"/>
+            <output expression="A%B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

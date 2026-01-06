@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="IF ELSE"/>
+        <attribute name="authors" value="prajith"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:21:25 AM"/>
+        <attribute name="created" value="cHJhaml0aDtQUkFKSVRIOzIwMjYtMDEtMDY7MTA6MjE6MDkgQU07MjU0Mw=="/>
+        <attribute name="edited" value="cHJhaml0aDtQUkFKSVRIOzIwMjYtMDEtMDY7MTA6MjE6MTIgQU07MTtwcmFqaXRoO1BSQUpJVEg7MjAyNi0wMS0wNjsxMDowODo1MyBBTTtMRUFTVC5mcHJnOzYxNjQ="/>
+        <attribute name="edited" value="cHJhaml0aDtQUkFKSVRIOzIwMjYtMDEtMDY7MTA6MjE6MjUgQU07MTsyNjQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <input variable="B"/>
+            <if expression="A&gt;B">
+                <then/>
+                <else/>
+            </if>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
